@@ -1,0 +1,22 @@
+html,
+body {
+    font-family: 'Raleway';
+    color: #000;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main {
+    padding-bottom: 130px;
+}

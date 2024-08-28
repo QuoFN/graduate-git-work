@@ -1,0 +1,54 @@
+.brand {
+    
+}
+
+.brand__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 130px;
+
+    @media (max-width:1000px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    @media (max-width:600px) {
+        padding-bottom: 70px;
+    }
+}
+
+.brand__title {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+    margin-bottom: 46px;
+
+    @media (max-width: 1000px) {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.brand__text {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.34px;
+    width: 542px;
+
+    @media (max-width: 600px) {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    @media (max-width: 500px) {
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+.brand__button-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
